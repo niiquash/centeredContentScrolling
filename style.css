@@ -7,7 +7,11 @@
 html {
   font-family: "Oswald", serif;
   font-size: 16px;
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
+}
+
+a {
+  color: inherit;
 }
 
 body {
@@ -39,6 +43,7 @@ body {
   height: fit-content;
   padding-bottom: 1.5rem;
   width: 400px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,6 +51,7 @@ body {
   gap: 1rem;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15);
   scroll-snap-align: center;
+  transition: all 0.5s ease-in;
 }
 
 figure {
